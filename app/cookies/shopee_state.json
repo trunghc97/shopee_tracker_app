@@ -1,0 +1,46 @@
+{
+    "cookies": [
+      {
+        "name": "SPC_T_ID",
+        "value": "XhmG4OtxnrlNJNB0OpT3QQO6tVz6K0Aiirq786KYVXkiqGHEcV+TGtY6iV2ryGDnNR+6f4TZSZ+edRqpV7WtV4YiEJlXAQEwIA4SsuNVz9omS2SwXzP8X/hbKhip95Tbh3lZsUxZMaP5BF6ntyNIrVKz8HXXYe0f/s1h2lYm8BE=",
+        "domain": ".shopee.vn",
+        "path": "/"
+      },
+      {
+        "name": "SPC_T_IV",
+        "value": "T2ZOVGU0eVJmY21wNnlrRA==",
+        "domain": ".shopee.vn",
+        "path": "/"
+      },
+      {
+        "name": "SPC_R_T_ID",
+        "value": "XhmG4OtxnrlNJNB0OpT3QQO6tVz6K0Aiirq786KYVXkiqGHEcV+TGtY6iV2ryGDnNR+6f4TZSZ+edRqpV7WtV4YiEJlXAQEwIA4SsuNVz9omS2SwXzP8X/hbKhip95Tbh3lZsUxZMaP5BF6ntyNIrVKz8HXXYe0f/s1h2lYm8BE=",
+        "domain": ".shopee.vn",
+        "path": "/"
+      },
+      {
+        "name": "SPC_R_T_IV",
+        "value": "T2ZOVGU0eVJmY21wNnlrRA==",
+        "domain": ".shopee.vn",
+        "path": "/"
+      },
+      {
+        "name": "SPC_SEC_SI",
+        "value": "v1-Q3VSdFp5NXdVOU0ySVNxVHhxjuX5orck8BpPKvYdfT7ftQmLmiQz/xLsEXYo8qwLhfszVmUjoNWgl1bdM1t/na/hXiTMutdlWEpzN/akB4I=",
+        "domain": "shopee.vn",
+        "path": "/"
+      },
+      {
+        "name": "SPC_SI",
+        "value": "9Dt3aAAAAABUb2NOMURrdhCETQEAAAAAcWxVOTRyZ2U=",
+        "domain": ".shopee.vn",
+        "path": "/"
+      },
+      {
+        "name": "SPC_ST",
+        "value": ".bjJzVWxxMDEyeXVYbUM2af/0P7hzdmMJyQ8HnfKiHnxA8+u3lYT6ZpUvTbaXzL4CAD3AGwKQssD7GFuX0Yz48LpUGdnMW0VdNUgQK5p5NXQoEOqCXk3ZpkJs86JPPIsWiR071j3x4NE5oZs7l6ss6ojSP4QDo13C+NVjLmKlJizhi1QuB+RRUUtykN+lfjI0gVyC3XrnPLbVtWfjDIC6XcFp8J41Es3Y4pq16FdE6ZzvNZXAdoKpZLgvqNoaIiyb",
+        "domain": ".shopee.vn",
+        "path": "/"
+      }
+    ]
+  }
