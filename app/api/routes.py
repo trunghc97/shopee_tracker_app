@@ -12,7 +12,7 @@ from app.core.logger import logger
 router = APIRouter()
 
 @router.post("/info")
-def resolve_and_save(payload: ShortUrlRequest):
+async def resolve_and_save(payload: ShortUrlRequest):
     logger.info(f"[API] Nhận request cho URL: {payload.short_url}")
     
     db: Session = SessionLocal()
@@ -57,7 +57,7 @@ def resolve_and_save(payload: ShortUrlRequest):
 
         # B3: Lấy giá từ service tương ứng với domain
         logger.info("[API] Bước 3: Lấy giá từ service tương ứng")
-        result = route_by_domain(full_url, shop_id, item_id, db)
+        result = await route_by_domain(full_url, shop_id, item_id, db)
         price = result.get("price")
         history = result.get("history")
         logger.info(f"[API] Kết quả từ service: price={price}, history={history}")

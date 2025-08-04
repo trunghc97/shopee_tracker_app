@@ -1,7 +1,7 @@
-from playwright.sync_api import Page
+from playwright.async_api import Page
 from app.core.logger import logger
 
-def get_price_data(page: Page):
+async def get_price_data(page: Page):
     """Lấy lịch sử giá từ AliPrice trên trình duyệt hiện tại"""
     logger.info("[AliPrice] Bắt đầu lấy lịch sử giá")
     
@@ -9,7 +9,7 @@ def get_price_data(page: Page):
         # Lấy lịch sử giá từ biểu đồ
         history_element = page.locator('.price-history-container').first
         if history_element:
-            history = history_element.text_content()
+            history = await history_element.text_content()
             logger.info("[AliPrice] Lấy lịch sử giá thành công")
             return "Đang cập nhật", history
         else:
